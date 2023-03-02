@@ -9,11 +9,12 @@ padding: 0;
 display: flex;
 justify-content:space-around;
 align-items: center;
-padding: 24px 0
+padding: 24px 0;
 }
 
 .cabecalho.imagem{
     width: 20%;
+    height: 43%;
 }
 .cabecalho-lista-item{
     display: inline-block;

@@ -4,20 +4,41 @@ padding: 0;
 }
 .cabecalho{
 
-    background-color: rgb(228, 183, 220);
-    color:rgb(100, 45, 126);
+background-color: rgb(193, 29, 199);
+color:rgb(94, 15, 88);
 display: flex;
 justify-content:space-around;
 align-items: center;
 padding: 24px 0;
 }
 
-.cabecalho.imagem{
-    width: 20%;
-    height: 43%;
+.cabecalho-imagem{
+    width: 30%;
+    height: 30%;
 }
 .cabecalho-lista-item{
     display: inline-block;
     margin: 0 16px;
     font-size: 24px;
+
+}
+
+.escola-imagem{
+    width: 10%;
+    height: 15%;
+}
+.escola{
+    background-image: linear-gradient(#a963b3,rgb(238, 13, 208));
+    color:rgb(62, 9, 87);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo{
+    width: 35;
+}
+.escola-titulo{
+    padding: 24px 0;
 }
